@@ -1,0 +1,131 @@
+what are valid extention of html document?
+.html -is sutiable for digital marketing
+.htm
+=>structure of html document ?
+-> html start to end called document.
+-> head
+-> Analytics / marketing section
+-> Library section
+-> css.javascript.other
+-> body
+-> tags for input and output
+==================================================
+heading tag - h1 to h6
+-> it use to create headline of webpage.
+-> use h1 min and max 1 time in each page. the h1 should hold the main keywoard that get search by user on internet.
+=================================================================
+p- tag it use display text data in webpage. use p tag if text is more than under 130 char or 1 line .
+each p tag should hold max 4 to 5 lines for better readabliity. each p tage have a sub heading using h2 to h6 .
+======================================================================
+tags for text data upto 130 or small text
+b, i, font, strong, em....
+
+
+
+20-06-2024
+
+
+Tppe of list in html ?
+1, ol--order list
+type="1"
+type="A"
+type="a"
+type="I"
+type="i"
+2, ul -unorder list
+type="disc"
+type="circle"
+type="square"
+type="none"
+3, dl-- discription list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+type of traget?
+    traget="_ self"--> it open the next page in same tab.
+    traget="_new" --> it open the next page in new tab but only at 1st click.
+    traget="_blank"---> it open the next page in new tab on every click
+home.html 
+service.html
+==================================================
+Tables in html 
+-->1 method-syntax 
+ table 
+   -> caption 
+   -> tr (table row)- its a block level tag 
+      -> th(table heading)
+      -> td(table data)
+--->2 method-syntsx 
+    table 
+    ->thead-it cover upper part of table 
+         --> tr 
+               -->th
+    ->tbody-it cover middle part of table
+        ->tr 
+             ->td
+    ->tfoot-it cover bottom part of table
+       ->tr 
+          ->th
+
+->property in table, thead, tboby, tfoot, tr, th, td 
+   =>align - left, center, right
+   =>valign - top, middle, bottom
+   =>broder - 
+   =>cellpadding - it apply space inside th, td 
+   =>cellspacing - it apply space outside of th, td 
+   table.html 
+      =>colspan = it combine space of 2 or more th, td - left to right
+      =>rowspan = it combine space of 2 or more tr - top to bottom
+      table2.html
+ ===========================================================================
+iNPUT tags
+ = text 
+ = number 
+ = email 
+ = password
+ = file
+ = date 
+ = datetime-local 
+ = text area - for multiline input (text data) 
+ = select 
+ = radio (to select any one)
+  = check 
+  = color
+  = button 
+     - submit
+     - reset 
+     - button 
+  
+     ------- property in input tags------
+           placeholder- it is for input guidance
+           maxlength - it use set the input limit(in characters)( it is applicable  email, text .password, textarea)
+           size - it resize width of input tag (text, email,possword)
+           name - it create a container to hold the data given by user in input box.
+           value- it use to dispaly defauit value in input box.
+         readonly - it  makeinput tag read only but value will past to backend.
+         disabled- it complete disabled the input element, it do not pass the value to backend.
+         tabindex- it use to set sequence for cursor, how the cursor should move. 
+         
+         
+         Form -> it is parent container of all input tags.
+                -> action - it use to set url of backend server the form data should get submitted.
+                -> method - it is used to set tyoe of communication either secure or unsecure.
+                    get- it send data via brouser url and data the data will be fully visible-unsecure 
+                    post - it send data in hidden as fully secure 
+                    put - it send request to server to update all value.
+                    patch - it send request to server to update only modified value.
+                    delete -  it send request to server to delete any record.
+            

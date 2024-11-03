@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <h1> about us </h1>
+        <h1> contact us </h1>
+        <h3> about us </h3>
+        <h4> about us </h4>
+        <h5> about us </h5>
+        <h6> about us </h6>
+        <label> html</label> <label> css</label>
+        <input type=" text" />
+        <input type=" number" />
+    </body>
+</html>
